@@ -1,0 +1,21 @@
+[
+    { "title": "Scrabble",
+        "shortTitle": "scrabble",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "rules": [
+            { "scoringInterval": "byRound", 
+                "scoringType": "simpleScore"}
+        ]
+            
+    },
+    { "title": "Zombie Dice",
+        "shortTitle": "zombie",
+        "minPlayers": 4,
+        "maxPlayers": 8,
+        "rules": [
+            { "scoringInterval": "byRound", 
+                "scoringType": "simpleScore"}
+        ]
+    }
+]

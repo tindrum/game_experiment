@@ -1,0 +1,15 @@
+{
+  "name": "game_experiment",
+  "version": "1.0.0",
+  "description": "inheritance-based game scoring objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Henderson",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.15.2"
+  }
+}
