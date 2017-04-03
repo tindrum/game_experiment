@@ -14,8 +14,9 @@ I have identified two overarching concepts in many games:
 --* simpleScore
 --* mappedScore
 --* goalPoints
-###
+
 Scoring Intervals
+=====
 The first group of concepts relate to when points are added to the player. In Scrabble, every player receives his points at the end of his turn. There is no waiting to see what other people might do to affect his score.
 
 In other games, like Sushi Go, points are awarded at the end of each round. 
@@ -26,8 +27,10 @@ These intervals need not represent a mutually-exclusive set. Ticket to Ride awar
 
 One game title, then, can have a set of scoring intervals.
 
-###
+
+
 Scoring Types
+=====
 In many cases, points are awarded in a linear way. A twelve-point word in Scrabble gets the player 12 points. This is `simpleScore`.
 
 Other games award points non-linearly. In Ticket to Ride, a route of one train car yields 1 point, but a route of six trains yields 15 points. This is `mappedScore`, since a function determines the score. It is simple enough for the player to convert these, since it's printed on the game board, but it may be beneficial to have the player state how many trains he's putting down and have the game compute the points for it. Also, in some games, the function may be more complex, involving the points or position of other players, for example. 
