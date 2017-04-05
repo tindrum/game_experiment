@@ -5,7 +5,8 @@
         "maxPlayers": 4,
         "rules": [
             { "scoringInterval": "byRound", 
-                "scoringType": "simpleScore"}
+                "scoringType": "simpleScore",
+                "strictOrder": true }
         ]
             
     },
@@ -15,7 +16,8 @@
         "maxPlayers": 8,
         "rules": [
             { "scoringInterval": "byRound", 
-                "scoringType": "simpleScore"}
+                "scoringType": "simpleScore",
+                "strictOrder": false }
         ]
     }
 ]
